@@ -1,41 +1,45 @@
 # ISO-IEC
----
 
-## Modular Structure Overview
+# ISO/IEC Tietoturva- ja Jatkuvuusprojekti
 
-### 1. Information Security & Risk Management (ISO/IEC 270xx)
-- **27001 – ISMS**: Core management system, roles, processes, PDCA cycle  
-- **27002 – Security Controls**: Design, technical implementation, monitoring  
-- **27005 – Risk Management**: Risk identification, assessment, treatment  
-- **27701 – Privacy & Personal Data**: GDPR overlay, privacy processes, risk assessment  
-- **27004 / 27033 / 27040 – Measurement & Technical Security**: Metrics, network and storage security  
-- **27035 – Incident Response**: Detection, response, post-incident review  
+Tämä GitHub-repositorio sisältää kattavan ISO/IEC-projektin, joka käsittelee tietoturvaa, riskienhallintaa, liiketoiminnan jatkuvuutta ja IT-palveluiden hallintaa. Jokaisella standardilla on oma kansio ja README.md, mikä tekee projektista helposti navigoitavan ja modulaarisen.  
 
-### 2. Business Continuity
-- **22301 – Business Continuity**: BCM principles, critical processes, continuity plans  
-- **22313 – Business Continuity Guidelines**: Implementation guidance and recommendations  
-
-### 3. IT Services & Governance
-- **20000 – IT Service Management**: Service quality, measurement, improvement  
-- **38500 – IT Governance**: Roles, strategic guidance, corporate oversight  
-
-### 4. General Risk Management
-- **31000 – Risk Management Framework**: Identification, assessment, prioritization, monitoring  
+**Huom:** Kaikki yksityiskohtaiset selitykset ja esimerkit tässä projektissa ovat **Suomenkielisiä**, mutta kansiorakenne ja yleiskuva ovat englanniksi selkeyden ja kansainvälisen yhteistyön vuoksi.
 
 ---
 
-## Project Purpose
+## Modulaarinen rakenne
 
-This project provides a holistic framework for secure and resilient organizational operations. Using the ISO/IEC standards, it allows organizations to implement structured processes for:
+### 1. Tietoturva ja riskienhallinta (ISO/IEC 270xx)
+- **27001 – ISMS**: Hallintajärjestelmän ydin, roolit, prosessit, PDCA  
+- **27002 – Tietoturvakontrollit**: Suunnittelu, tekninen toteutus, seuranta  
+- **27005 – Riskienhallinta**: Riskien tunnistus, arviointi, käsittely  
+- **27701 – Henkilötietojen suoja (Privacy)**: GDPR-overlay, tietosuojaprosessit  
+- **27004 / 27033 / 27040 – Mittaaminen ja tekninen turvallisuus**: Mittarit, verkkoturva, tallennusturva  
+- **27035 – Häiriönhallinta / Incident Response**: Häiriön tunnistus, vaste, jälkiarviointi  
 
-- Security management and controls  
-- Risk assessment and mitigation  
-- Business continuity planning  
-- IT service governance  
-- Measurement and continuous improvement  
+### 2. Liiketoiminnan jatkuvuus
+- **22301 – Liiketoiminnan jatkuvuus**: BCM-periaatteet, kriittiset prosessit, jatkuvuussuunnitelmat  
+- **22313 – Liiketoiminnan jatkuvuus (ohjeistus)**: Ohjeet jatkuvuussuunnitelmien toteutukseen  
 
-All explanations and examples are in **Suomenkielinen (Finnish)** to support local teams, while the structure and documentation are in English for international clarity.
+### 3. IT-palvelut ja hallinta
+- **20000 – IT-palveluiden hallinta**: Palvelun laatu, mittaaminen, parantaminen  
+- **38500 – IT-governance**: Roolit, strateginen ohjaus, valvonta  
+
+### 4. Yleinen riskienhallinta
+- **31000 – Riskienhallinnan kehys**: Tunnistus, arviointi, priorisointi, seuranta  
 
 ---
 
-*Standards included: ISO/IEC 27001, 27002, 27005, 27701, 27004, 27033, 27035, 27040, 22301, 22313, 20000, 38500, 31000.*
+## Projektin tarkoitus
+
+Tämä projekti tarjoaa kokonaisvaltaisen viitekehyksen turvallisten ja resilienttien organisaatioiden toiminnan ylläpitämiseen. ISO/IEC-standardien avulla voidaan toteuttaa järjestelmällisesti:
+
+- Tietoturvan hallinta ja kontrollit  
+- Riskien arviointi ja käsittely  
+- Liiketoiminnan jatkuvuuden suunnittelu  
+- IT-palveluiden johtaminen  
+- Mittaaminen ja jatkuva parantaminen  
+
+at standardit: ISO/IEC 27001, 27002, 27005, 27701, 27004, 27033, 27035, 27040, 22301, 22313, 20000, 38500, 31000.*
+
